@@ -18,6 +18,8 @@ web:
 postgres:
 #  image: postgres:9.4.1
   image: aldryn/open-postgres:latest
+#  volumes_from:
+#    - "04dockercompose_postgres-data"
   ports:
     - "45432:5432"
   environment:

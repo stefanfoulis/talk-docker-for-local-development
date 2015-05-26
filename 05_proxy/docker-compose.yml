@@ -5,9 +5,3 @@ proxy:
     - "80:80"
   volumes:
     - /var/run/docker.sock:/tmp/docker.sock
-
-
-defaultweb:
-  image: deis/helloworld:latest
-  environment:
-    VIRTUAL_HOST: aaaa.local.aldryn.net

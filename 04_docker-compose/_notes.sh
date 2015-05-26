@@ -1,5 +1,9 @@
-# startup postgres in the background
-docker-compose up web
+# create the data container
+#docker rm -v 04dockercompose_postgres-data || true
+#docker run --name 04dockercompose_postgres-data -v /var/lib/postgresql/data busybox true
+
+# startup the project
+docker-compose up --no-recreate web
 
 # show in browser
 open http://192.168.59.103:8000/
@@ -14,23 +18,14 @@ docker-compose run --rm web python manage.py createsuperuser --username=root --e
 
 # show docker-compose.yml
 #  * names
-#  * volumes
+#  * volumes (for local development)
 #  * ports
 #  * environment
 # show settings.py with loading from environment
 # explain links and automatic hostname
 
-# start proxy
-(cd ../05_proxy && docker-compose up -d)
-
-# show in browser
-open http://web.aldryn.me/
-
-# show/explain proxy
-
 # run the web service without re-starting postgers/redis every time
 docker-compose rm --force web && docker-compose up --no-recreate web
-
 
 
 # general workflow
@@ -40,6 +35,8 @@ docker-compose run --rm web python manage.py makemigrations myapp
 
 # adding dependencies
 # add to requirements.txt
+# OR for a quicker test build: add to Dockerfiler:
+# RUN pip install ipython ipdb --no-input
 docker-compose build web
 docker-compose rm --force web && docker-compose up --no-recreate web
 
@@ -49,6 +46,7 @@ docker-compose rm --force web && docker-compose up --no-recreate web
 
 # ipdb
 # need to start the server differently, so that we get shell access
+# otherwise all you see is logs and they are not interactive
 docker-compose run --rm --service-ports web
 
 
@@ -66,4 +64,11 @@ docker-compose logs
 docker-compose logs web
 
 
+# start proxy
+(cd ../05_proxy && docker-compose up -d)
+
+# show in browser
+open http://web.aldryn.me/
+
+# show/explain proxy
 
