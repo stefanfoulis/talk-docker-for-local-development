@@ -2,32 +2,32 @@ web:
   build: .
   volumes:
     - .:/usr/src/app
-    - data/media:/data/media
+    - ../04_docker-compose_data/media:/data/media
   ports:
     - "8000:8000"
   links:
     - "postgres:postgres"
+    - "redis:redis"
   environment:
+    VIRTUAL_HOST: web.aldryn.me
     SECRET_KEY: "this-should-be-long-and-random"
     DATABASE_URL: postgres://web:random-postgres-password@postgres:5432/web
-
-
-postgresdata:
-  # pure data container
-  image: busybox
-  volumes:
-    - /etc/postgresql
-    - /var/log/postgresql:/var/log/postgresql
-    - /var/lib/postgresql
+    CACHE_URL: redis://redis:6379/1
 
 
 postgres:
-  image: postgres:9.4.1
-  volumes_from:
-    - postgresdata
+#  image: postgres:9.4.1
+  image: aldryn/open-postgres:latest
+  ports:
+    - "45432:5432"
   environment:
     POSTGRES_USER: web
     POSTGRES_PASSWORD: "random-postgres-password"
+
+
+redis:
+  image: redis:3.0.1
+
 
 
 
