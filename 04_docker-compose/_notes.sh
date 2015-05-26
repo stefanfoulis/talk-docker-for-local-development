@@ -60,5 +60,10 @@ docker exec -it 04dockercompose_redis_1 /bin/bash
 # cheat: create a virtualenv for the project and install the requirements locally as well
 
 
+# logs
+docker logs -f --tail=100 mycontainer
+docker-compose logs
+docker-compose logs web
+
 
 
