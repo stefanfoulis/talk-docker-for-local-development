@@ -1,0 +1,15 @@
+postgres:
+  image: postgres:9.4.1
+  volumes_from:
+    - postgresdata
+  environment:
+    POSTGRES_USER: web
+    POSTGRES_PASSWORD: "random-postgres-password"
+
+postgresdata:
+  # pure data container
+  image: busybox
+  volumes:
+    - /etc/postgresql
+    - /var/log/postgresql:/var/log/postgresql
+    - /var/lib/postgresql
