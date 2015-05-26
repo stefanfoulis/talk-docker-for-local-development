@@ -5,7 +5,7 @@ dj-email-url==0.0.4
 django-cache-url==0.8.0
 
 psycopg2==2.6
-django-redis-cache==0.13.1
+django-redis==4.0.0
 redis==2.10.3
 
 Pillow==2.8.1

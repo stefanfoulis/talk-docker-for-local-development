@@ -12,7 +12,7 @@ web:
     VIRTUAL_HOST: web.aldryn.me
     SECRET_KEY: "this-should-be-long-and-random"
     DATABASE_URL: postgres://web:random-postgres-password@postgres:5432/web
-    CACHE_URL: redis://redis:6379/1
+    CACHE_URL: redis://redis:6379/1/cache
 
 
 postgres:

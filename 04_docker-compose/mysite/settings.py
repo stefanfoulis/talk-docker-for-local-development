@@ -114,5 +114,10 @@ MEDIA_ROOT = env('MEDIA_ROOT', '/data/media')
 vars().update(dj_email_url.config())
 
 # Cache
-CACHES = {'default': django_cache_url.config()}
+CACHES = {
+  'default': django_cache_url.config(),
+}
+# workaround for https://github.com/ghickman/django-cache-url/issues/22
+if CACHES['default'].get('BACKEND', None) == 'redis_cache.cache.RedisCache':
+    CACHES['default']['BACKEND'] = 'django_redis.cache.RedisCache'
 
