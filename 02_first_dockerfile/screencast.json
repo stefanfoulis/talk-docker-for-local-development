@@ -1,0 +1,812 @@
+{
+  "events": [
+    {
+      "act": "OPEN", 
+      "size": [
+        198, 
+        44
+      ], 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.3976109027862549
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/02_first_dockerfile\u0007\u001b]1;..st_dockerfile\u0007", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0049419403076171875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m02_first_dockerfile \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "c", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "READ", 
+      "data": "a", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bca", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "t Dock", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\t", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[31m......\u001b[0m", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.026447057723999023
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m02_first_dockerfile \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00mcat Dockerfile\u001b[1m \u001b[0m\u001b[K", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b\u001b[0m \b\u001b[?1l\u001b>\r\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0006649494171142578
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;cat Dockerfile\u0007\u001b]1;cat\u0007", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.001302957534790039
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "FROM ubuntu:14.04\r\nRUN apt-get update\r\nRUN apt-get install cowsay\r\nRUN echo '/usr/games/cowsay \"This is my docker image. There are many like it. But this one is mine.\"' >> /root/.bashrc\r\nCMD /bin/bash\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/02_first_dockerfile\u0007\u001b]1;..st_dockerfile\u0007", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0006759166717529297
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m02_first_dockerfile \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "d", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "READ", 
+      "data": "o", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bdo", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "cker build -t stefanfoulis/cowsay:latest .", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1l\u001b>\r\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0005409717559814453
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;docker build -t stefanfoulis/cowsay:latest .\u0007\u001b]1;docker\u0007", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.16550111770629883
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Sending build context to Docker daemon 3.584 kB\r\r\r\nSending build context to Docker daemon \r\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04386496543884277
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Step 0 : FROM ubuntu:14.04\r\n ---> 07f8e8c5e660\r\nStep 1 : RUN apt-get update\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.20119500160217285
+    }, 
+    {
+      "act": "WRITE", 
+      "data": " ---> Running in 6160970350de\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.8197219371795654
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Ign http://archive.ubuntu.com trusty InRelease\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.08959388732910156
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Ign http://archive.ubuntu.com trusty-updates InRelease\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.09016990661621094
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Ign http://archive.ubuntu.com trusty-security InRelease\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.09062409400939941
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Hit http://archive.ubuntu.com trusty Release.gpg\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.09137821197509766
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:1 http://archive.ubuntu.com trusty-updates Release.gpg [933 B]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.09040307998657227
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:2 http://archive.ubuntu.com trusty-security Release.gpg [933 B]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.3781299591064453
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Hit http://archive.ubuntu.com trusty Release\r\nGet:3 http://archive.ubuntu.com trusty-updates Release [63.5 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.17461490631103516
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:4 http://archive.ubuntu.com trusty-security Release [63.5 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.18086600303649902
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:5 http://archive.ubuntu.com trusty/main Sources [1335 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.0200538635253906
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:6 http://archive.ubuntu.com trusty/restricted Sources [5335 B]\r\nGet:7 http://archive.ubuntu.com trusty/universe Sources [7926 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.1481070518493652
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:8 http://archive.ubuntu.com trusty/main amd64 Packages [1743 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.2582428455352783
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:9 http://archive.ubuntu.com trusty/restricted amd64 Packages [16.0 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.08938407897949219
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:10 http://archive.ubuntu.com trusty/universe amd64 Packages [7589 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.8114581108093262
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:11 http://archive.ubuntu.com trusty-updates/main Sources [260 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.10894489288330078
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:12 http://archive.ubuntu.com trusty-updates/restricted Sources [3158 B]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.08924007415771484
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:13 http://archive.ubuntu.com trusty-updates/universe Sources [147 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.10073995590209961
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:14 http://archive.ubuntu.com trusty-updates/main amd64 Packages [664 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.1486499309539795
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:15 http://archive.ubuntu.com trusty-updates/restricted amd64 Packages [18.1 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0888359546661377
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:16 http://archive.ubuntu.com trusty-updates/universe amd64 Packages [366 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.11922407150268555
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:17 http://archive.ubuntu.com trusty-security/main Sources [101 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.09507393836975098
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:18 http://archive.ubuntu.com trusty-security/restricted Sources [1874 B]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.23057293891906738
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:19 http://archive.ubuntu.com trusty-security/universe Sources [28.4 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.09015607833862305
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:20 http://archive.ubuntu.com trusty-security/main amd64 Packages [345 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.11534881591796875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:21 http://archive.ubuntu.com trusty-security/restricted amd64 Packages [14.8 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.09140586853027344
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Get:22 http://archive.ubuntu.com trusty-security/universe amd64 Packages [134 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.1591169834136963
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Fetched 20.8 MB in 6s (3398 kB/s)\r\nReading package lists...", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.1236660480499268
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.435809850692749
+    }, 
+    {
+      "act": "WRITE", 
+      "data": " ---> 9813a8ecdab8\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.009244918823242188
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Removing intermediate container 6160970350de\r\nStep 2 : RUN apt-get install cowsay\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.09365987777709961
+    }, 
+    {
+      "act": "WRITE", 
+      "data": " ---> Running in 048026d33f2d\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.5522260665893555
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Reading package lists...", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.1162970066070557
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.14642596244812012
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Building dependency tree...", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.11229705810546875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\nReading state information...\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.09272098541259766
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Suggested packages:\r\n  filters\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0006701946258544922
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "The following NEW packages will be installed:\r\n  cowsay\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.589040994644165
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "0 upgraded, 1 newly installed, 0 to remove and 3 not upgraded.\r\nNeed to get 18.5 kB of archives.\r\nAfter this operation, 90.1 kB of additional disk space will be used.\r\nGet:1 http://archive.ubuntu.com/ubuntu/ trusty/universe cowsay all 3.03+dfsg1-6 [18.5 kB]\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.34186506271362305
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[91mdebconf: unable to initialize frontend: Dialog\r\ndebconf: (TERM is not set, so the dialog frontend is not usable.)\r\ndebconf: falling back to frontend: Readline\r\n\u001b[0m", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0012650489807128906
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[91mdebconf: unable to initialize frontend: Readline\r\ndebconf: (This frontend requires a controlling tty.)\r\ndebconf: falling back to frontend: Teletype\r\n\u001b[0m\u001b[91mdpkg-preconfigure: unable to re-open stdin: \r\n\u001b[0m", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.006862163543701172
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Fetched 18.5 kB in 0s (57.0 kB/s)\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.1591329574584961
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Selecting previously unselected package cowsay.\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0049860477447509766
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "(Reading database ... 11528 files and directories currently installed.)\r\nPreparing to unpack .../cowsay_3.03+dfsg1-6_all.deb ...\r\nUnpacking cowsay (3.03+dfsg1-6) ...\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.17896389961242676
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Setting up cowsay (3.03+dfsg1-6) ...\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.5277688503265381
+    }, 
+    {
+      "act": "WRITE", 
+      "data": " ---> a0e982a9239f\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0073430538177490234
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Removing intermediate container 048026d33f2d\r\nStep 3 : RUN echo '/usr/games/cowsay \"This is my docker image. There are many like it. But this one is mine.\"' >> /root/.bashrc\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.11593103408813477
+    }, 
+    {
+      "act": "WRITE", 
+      "data": " ---> Running in 082e9afb1035\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.58001708984375
+    }, 
+    {
+      "act": "WRITE", 
+      "data": " ---> 7c5625bf291f\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.004672050476074219
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Removing intermediate container 082e9afb1035\r\nStep 4 : CMD /bin/bash\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.10035896301269531
+    }, 
+    {
+      "act": "WRITE", 
+      "data": " ---> Running in 4876d3d0bbf5\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.10867094993591309
+    }, 
+    {
+      "act": "WRITE", 
+      "data": " ---> 30c89801cdba\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0047190189361572266
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Removing intermediate container 4876d3d0bbf5\r\nSuccessfully built 30c89801cdba\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/02_first_dockerfile\u0007\u001b]1;..st_dockerfile\u0007", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.01967000961303711
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m02_first_dockerfile \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "d", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "READ", 
+      "data": "o", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bdo", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "cker run -it --rm stefanfoulis/cowsay:latest /bin/bash", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1l\u001b>\r\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0007040500640869141
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;docker run -it --rm stefanfoulis/cowsay:latest /bin/bash\u0007\u001b]1;docker\u0007", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.44672513008117676
+    }, 
+    {
+      "act": "WRITE", 
+      "data": " _________________________________________\r\n/ This is my docker image. There are many \\\r\n\\ like it. But this one is mine.          /\r\n -----------------------------------------\r\n        \\   ^__^\r\n         \\  (oo)\\_______\r\n            (__)\\       )\\/\\\r\n                ||----w |\r\n                ||     ||\r\n\u001b]0;root@8cd08addd4db: /\u0007root@8cd08addd4db:/# ", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u0004", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "exit\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.164017915725708
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/02_first_dockerfile\u0007\u001b]1;..st_dockerfile\u0007", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0062711238861083984
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m02_first_dockerfile \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "d", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "READ", 
+      "data": "o", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bdo", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "cker push stefanfoulis/cowsay:latest", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u0003", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0004029273986816406
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/02_first_dockerfile\u0007\u001b]1;..st_dockerfile\u0007", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.007950067520141602
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;31m\u279c \u001b[27m\u001b[01;32m \u001b[36m02_first_dockerfile \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "e", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "READ", 
+      "data": "x", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bex", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "it", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1l\u001b>\r\r\n", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0025780200958251953
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;exit\u0007\u001b]1;exit\u0007", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04138994216918945
+    }, 
+    {
+      "act": "CLOSE", 
+      "term": "3c5c5514aa86416ea91b0d1a7fd35a7a"
+    }
+  ], 
+  "shell": "/bin/zsh"
+}

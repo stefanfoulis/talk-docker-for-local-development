@@ -1,0 +1,1210 @@
+{
+  "events": [
+    {
+      "act": "OPEN", 
+      "size": [
+        198, 
+        37
+      ], 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.3086690902709961
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development\u0007\u001b]1;..l-development\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.008967876434326172
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36mdocker-for-local-development \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "c", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "d", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bcd", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": " 03", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\t", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[31m......\u001b[0m", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.011559009552001953
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36mdocker-for-local-development \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00mcd 03_django\u001b[1m/\u001b[0m\u001b[K", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b\u001b[0m \b\u001b[?1l\u001b>\r\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0005819797515869141
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;cd 03_django\u0007\u001b]1;cd\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.004374980926513672
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/03_django\u0007\u001b]1;..ent/03_django\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.009233951568603516
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m03_django \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "l", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "l", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bll", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1l\u001b>\r\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0006508827209472656
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;ls -G -lAFG\u0007\u001b]1;ll\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0048370361328125
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "total 24\r\n-rw-r--r--  1 stefanfoulis  staff   28 May 24 22:39 Dockerfile\r\n-rw-r--r--  1 stefanfoulis  staff  417 May 26 15:16 _notes.sh\r\n-rw-r--r--  1 stefanfoulis  staff   14 May 24 22:39 requirements.txt\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/03_django\u0007\u001b]1;..ent/03_django\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0015110969543457031
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m03_django \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "c", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "a", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bca", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "t Doc", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\t", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[31m......\u001b[0m", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.011771202087402344
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m03_django \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00mcat Dockerfile\u001b[1m \u001b[0m\u001b[K", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b\u001b[0m \b\u001b[?1l\u001b>\r\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0004820823669433594
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;cat Dockerfile\u0007\u001b]1;cat\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0014231204986572266
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "FROM django:python3-onbuild\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/03_django\u0007\u001b]1;..ent/03_django\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.004532814025878906
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m03_django \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "c", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "a", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bca", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "t re", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\t", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[31m......\u001b[0m", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.004992961883544922
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m03_django \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00mcat requirements.txt\u001b[1m \u001b[0m\u001b[K", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\t", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[31m......\u001b[0m", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0035009384155273438
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m03_django \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00mcat requirements.txt\u001b[K\u001b[1C\r\r\n\u001b[J\u001b[0mDockerfile        \u001b[J_notes.sh         \u001b[Jrequirements.txt\u001b[J\u001b[A\u001b[0m\u001b[27m\u001b[24m\r\u001b[28Ccat requirements.txt\u001b[K\u001b[1C", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1l\u001b>\r\r\n\u001b[J", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0006549358367919922
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;cat requirements.txt\u0007\u001b]1;cat\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.001316070556640625
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Django==1.8.2\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/03_django\u0007\u001b]1;..ent/03_django\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.005774974822998047
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m03_django \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "d", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "o", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bdo", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "cker build -t mydjangoimage --no-cache .", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1l\u001b>\r\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0007779598236083984
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;docker build -t mydjangoimage --no-cache .\u0007\u001b]1;docker\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.16727614402770996
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Sending build context to Docker daemon 4.096 kB\r\r\r\nSending build context to Docker daemon \r\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04276394844055176
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Step 0 : FROM django:python3-onbuild\r\n\u001b[91m# Executing 3 build triggers\r\n\u001b[0mTrigger 0, COPY requirements.txt /usr/src/app/\r\nStep 0 : COPY requirements.txt /usr/src/app/\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.2445521354675293
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Trigger 1, RUN pip install -r requirements.txt\r\nStep 0 : RUN pip install -r requirements.txt\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.09629297256469727
+    }, 
+    {
+      "act": "WRITE", 
+      "data": " ---> Running in dce13b00a946\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.6838340759277344
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "You are using pip version 6.0.8, however version 7.0.1 is available.\r\nYou should consider upgrading via the 'pip install --upgrade pip' command.\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0009801387786865234
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Collecting Django==1.8.2 (from -r requirements.txt (line 1))\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.2576160430908203
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "  Downloading Django-1.8.2-py2.py3-none-any.whl (6.2MB)\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5484440326690674
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Installing collected packages: Django\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.983612060546875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.350687026977539
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Successfully installed Django-1.8.2\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.1857340335845947
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Trigger 2, COPY . /usr/src/app\r\nStep 0 : COPY . /usr/src/app\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.23382997512817383
+    }, 
+    {
+      "act": "WRITE", 
+      "data": " ---> ba44f5f60683\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.005046844482421875
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Removing intermediate container 4ea5aacd50ae\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0041120052337646484
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Removing intermediate container 6e2b6a2bacb9\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.19280600547790527
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Removing intermediate container dce13b00a946\r\nSuccessfully built ba44f5f60683\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0012981891632080078
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/03_django\u0007\u001b]1;..ent/03_django\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.017673015594482422
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m03_django \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "l", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "l", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bll", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1l\u001b>\r\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0008349418640136719
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;ls -G -lAFG\u0007\u001b]1;ll\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0034508705139160156
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "total 24\r\n-rw-r--r--  1 stefanfoulis  staff   28 May 24 22:39 Dockerfile\r\n-rw-r--r--  1 stefanfoulis  staff  417 May 26 15:16 _notes.sh\r\n-rw-r--r--  1 stefanfoulis  staff   14 May 24 22:39 requirements.txt\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/03_django\u0007\u001b]1;..ent/03_django\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.001310110092163086
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m03_django \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "d", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "o", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bdo", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "cker p", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u007f", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b \b", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "images | grep y", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u007f", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b \b", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "mydjango", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1l\u001b>\r\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0005140304565429688
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;docker images | grep --color=auto --exclude-dir={.bzr,.cvs,.git,.hg,.svn} \u0007\u001b]1;docker\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.8214240074157715
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[01;31m\u001b[Kmydjango\u001b[m\u001b[Kimage                                                                                                                                            latest                ba44f5f60683        29 seconds ago      832.7 MB\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/03_django\u0007\u001b]1;..ent/03_django\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0024819374084472656
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m03_django \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "d", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "o", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bdo", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "cker run -it --rm --user \"$(id -u):$(id -g)\" -v \"$PWD\":/usr/src/app -w /usr/src/app mydjangoimage django-admin.py startproject mysite .", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1l\u001b>\r\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0005800724029541016
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;docker run -it --rm --user \"$(id -u):$(id -g)\" -v \"$PWD\":/usr/src/app -w     \u0007\u001b]1;docker\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.186133861541748
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/03_django\u0007\u001b]1;..ent/03_django\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.006807088851928711
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m03_django \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "l", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "l", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bll", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1l\u001b>\r\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0005729198455810547
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;ls -G -lAFG\u0007\u001b]1;ll\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.003103971481323242
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "total 32\r\n-rw-r--r--  1 stefanfoulis  staff   28 May 24 22:39 Dockerfile\r\n-rw-r--r--  1 stefanfoulis  staff  417 May 26 15:16 _notes.sh\r\n-rwxr-xr-x  1 stefanfoulis  staff  249 May 26 15:21 \u001b[31mmanage.py\u001b[39;49m\u001b[0m*\r\ndrwxr-xr-x  6 stefanfoulis  staff  204 May 26 15:21 \u001b[1m\u001b[36mmysite\u001b[39;49m\u001b[0m/\r\n-rw-r--r--  1 stefanfoulis  staff   14 May 24 22:39 requirements.txt\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/03_django\u0007\u001b]1;..ent/03_django\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 3.695487976074219e-05
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m03_django \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "l", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "l", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bll", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": " my", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\t", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[31m......\u001b[0m", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.010129928588867188
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m03_django \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00mll mysite\u001b[1m/\u001b[0m\u001b[K", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\b\u001b[0m \b\u001b[?1l\u001b>\r\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0004508495330810547
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;ls -G -lAFG mysite\u0007\u001b]1;ll\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0029189586639404297
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "total 24\r\n-rw-r--r--  1 stefanfoulis  staff     0 May 26 15:21 __init__.py\r\n-rw-r--r--  1 stefanfoulis  staff  2638 May 26 15:21 settings.py\r\n-rw-r--r--  1 stefanfoulis  staff   756 May 26 15:21 urls.py\r\n-rw-r--r--  1 stefanfoulis  staff   389 May 26 15:21 wsgi.py\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/03_django\u0007\u001b]1;..ent/03_django\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0006549358367919922
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m03_django \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "d", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "o", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bdo", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "cker build -t mydjangoimage .", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1l\u001b>\r\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00047206878662109375
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;docker build -t mydjangoimage .\u0007\u001b]1;docker\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.1599140167236328
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Sending build context to Docker daemon 12.29 kB\r\r\r\nSending build context to Docker daemon \r\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04608488082885742
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Step 0 : FROM django:python3-onbuild\r\n\u001b[91m# Executing 3 build triggers\r\n\u001b[0mTrigger 0, COPY requirements.txt /usr/src/app/\r\nStep 0 : COPY requirements.txt /usr/src/app/\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.10131001472473145
+    }, 
+    {
+      "act": "WRITE", 
+      "data": " ---> Using cache\r\nTrigger 1, RUN pip install -r requirements.txt\r\nStep 0 : RUN pip install -r requirements.txt\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.12121796607971191
+    }, 
+    {
+      "act": "WRITE", 
+      "data": " ---> Using cache\r\nTrigger 2, COPY . /usr/src/app\r\nStep 0 : COPY . /usr/src/app\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.3215959072113037
+    }, 
+    {
+      "act": "WRITE", 
+      "data": " ---> cfb188076d8b\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.004935026168823242
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Removing intermediate container 22d4b901e979\r\nSuccessfully built cfb188076d8b\r\n\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/03_django\u0007\u001b]1;..ent/03_django\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.004971981048583984
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m03_django \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "d", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "o", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bdo", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "cker run -it --rm -p 8000:8000 mydjangoimage", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1l\u001b>\r\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.00061798095703125
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;docker run -it --rm -p 8000:8000 mydjangoimage\u0007\u001b]1;docker\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.5733070373535156
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Performing system checks...\r\n\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.003973960876464844
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "System check identified no issues (0 silenced).\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04561114311218262
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[31m\r\nYou have unapplied migrations; your app may not work properly until they are applied.\u001b[0m\r\n\u001b[31mRun 'python manage.py migrate' to apply them.\r\n\u001b[0m\r\nMay 26, 2015 - 13:22:20\r\nDjango version 1.8.2, using settings 'mysite.settings'\r\nStarting development server at http://0.0.0.0:8000/\r\nQuit the server with CONTROL-C.\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u0003", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "^C", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.2571539878845215
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/03_django\u0007\u001b]1;..ent/03_django\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.004916191101074219
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m03_django \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "d", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "o", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bdo", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "cker run -it --rm -p 8000:8000 -v \"$PWD\":/usr/src/app mydjangoimage", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1l\u001b>\r\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0007641315460205078
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;docker run -it --rm -p 8000:8000 -v \"$PWD\":/usr/src/app mydjangoimage\u0007\u001b]1;docker\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 1.4864890575408936
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Performing system checks...\r\n\r\nSystem check identified no issues (0 silenced).\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.5311479568481445
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[31m\r\nYou have unapplied migrations; your app may not work properly until they are applied.\u001b[0m\r\n\u001b[31mRun 'python manage.py migrate' to apply them.\r\n\u001b[0m\r\nMay 26, 2015 - 13:22:38\r\nDjango version 1.8.2, using settings 'mysite.settings'\r\nStarting development server at http://0.0.0.0:8000/\r\nQuit the server with CONTROL-C.\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 11.33093786239624
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Performing system checks...\r\n\r\nSystem check identified no issues (0 silenced).\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.015001058578491211
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[31m\r\nYou have unapplied migrations; your app may not work properly until they are applied.\u001b[0m\r\n\u001b[31mRun 'python manage.py migrate' to apply them.\r\n\u001b[0m\r\nMay 26, 2015 - 13:22:49\r\nDjango version 1.8.2, using settings 'mysite.settings'\r\nStarting development server at http://0.0.0.0:8000/\r\nQuit the server with CONTROL-C.\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 4.730765104293823
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "Performing system checks...\r\n\r\nSystem check identified no issues (0 silenced).\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.015071868896484375
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[31m\r\nYou have unapplied migrations; your app may not work properly until they are applied.\u001b[0m\r\n\u001b[31mRun 'python manage.py migrate' to apply them.\r\n\u001b[0m\r\nMay 26, 2015 - 13:22:54\r\nDjango version 1.8.2, using settings 'mysite.settings'\r\nStarting development server at http://0.0.0.0:8000/\r\nQuit the server with CONTROL-C.\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\u0003", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "^C", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.3028850555419922
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                     \r \r\u001b]2;stefanfoulis@osx-stefanfoulis: ~/Coding/Talks/docker-for-local-development/03_django\u0007\u001b]1;..ent/03_django\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0066699981689453125
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\r\u001b[0m\u001b[27m\u001b[24m\u001b[J\u001b[01;32m\u279c \u001b[01;32m \u001b[36m03_django \u001b[01;34mgit:(\u001b[31mmaster\u001b[34m) \u001b[33m\u2717\u001b[00m\u001b[00m\u001b[01;34m \u001b[00m\u001b[K\u001b[?1h\u001b=", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "e", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "x", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\bex", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "ECHO", 
+      "data": "it", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "READ", 
+      "data": "\r", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b[?1l\u001b>\r\r\n", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.0004839897155761719
+    }, 
+    {
+      "act": "WRITE", 
+      "data": "\u001b]2;exit\u0007\u001b]1;exit\u0007", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }, 
+    {
+      "act": "PAUSE", 
+      "duration": 0.04410290718078613
+    }, 
+    {
+      "act": "CLOSE", 
+      "term": "557cc0f19e3f41a6ac768aa339c2aab2"
+    }
+  ], 
+  "shell": "/bin/zsh"
+}
